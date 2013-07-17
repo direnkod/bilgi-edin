@@ -2,36 +2,43 @@
 	"iem": {
 		"id": "iem",
 		"name": "Istanbul Emniyet Mudurlugu",
+		"description": "",
 		"url": "https://www.iem.gov.tr/iem/index.php?menu_id=36&tur=gercek#form#ihbar_sikayet"
 	},
 	"tcdd": {
 		"id": "tcdd",
 		"name": "Devlet Demir Yollari",
+		"description": "",
 		"url": "http://bilgi.ubak.gov.tr:9080/ULASTR/indexTCDD.jsp"
 	},
 	"bimer": {
 		"id": "bimer",
 		"name": "Basbakanlik Iletisim Merkezi",
+		"description": "",
 		"url": "https://www.turkiye.gov.tr/bimer-basvuru"
 	}, 
 	"dhmi": {
 		"id": "dhmi",
 		"name": "Devlet Hava Meydanlari Isletmesi",
+		"description": "",
 		"url": "http://bilgi.ubak.gov.tr:9080/ULASTR/indexDHMI.jsp"
 	},
 	"dpb": {
 		"id": "dpb",
 		"name": "Devlet Personel Baskanligi",
+		"description": "",
 		"url": "http://bilgiedinme.dpb.gov.tr/bilgiedinmeint/bilgiedinme_anasayfa.aspx"
 	},
 	"dmo": {
 		"id": "dmo",
 		"name": "Devlet Malzeme Ofisi",
+		"description": "",
 		"url": "http://www.dmo.gov.tr/tr/bilgiedinme/Sayfalar/BilgiEdinmeBasvurusu.aspx"
 	},
 	"tccb": {
 		"id": "tccb",
 		"name": "TC Cumhurbaskanligi",
+		"description": "",
 		"url": "http://www.tccb.gov.tr/sayfa/bilgi_edinme/basvuru"
 	}
 }
