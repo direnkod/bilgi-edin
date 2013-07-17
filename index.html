@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if IE 8]>               <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Bilgi Edin</title>
+  <style type=text/css>
+	    .bilgi-formu-iframe { width:100%; min-height:100% }
+	    .bilgi-formu { height:100%;}
+  </style>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+  <script type=text/javascript>
+
+		// Get sources json file
+  		$.getJSON("bilgi_edinme_kaynaklari.json", function(data) {
+		    var sources = data;
+
+			// Create li tags from sources
+			for (var key in sources) {
+			  if (sources.hasOwnProperty(key)) {
+			  	var $navEl = $("<li><a class='dolasim' href='#'></a></li>");
+			  	$navEl.find('a').attr("id", sources[key]['id']);
+			  	$navEl.find('a').text(sources[key]['name']);
+			  	$(".side-nav").append($navEl);
+			  }
+			}
+			function getBilgiSource(src, key) {
+				return sources[src][key];
+			}
+			function reloadIframe(title, url) {
+	      			$(".bilgi-formu-baslik").text(title);
+					$(".bilgi-formu-iframe").attr("src", url);
+			}
+			
+			// Define side-nav behavior
+			$(".dolasim").on('click', function() {
+				var thisId = $(this).attr("id");
+				var title = getBilgiSource(thisId, "name"); 
+				var url = getBilgiSource(thisId, "url"); 
+	  			reloadIframe(title, url); 
+			});
+
+		}).fail(function(jqxhr, textStatus, error) { alert( "Something went wrong, please try again" + textStatus + " " + error ); })
+		
+		// Adjust iFrame height to browser window height
+	    $(window).resize(function() {
+	    	$('.bilgi-formu').css('height', $(window).height());
+	    }); 
+
+  </script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="large-2 columns" style="font-size:90%">
+    		<h1>Bilgi Edin</h1>
+            <p>Herkes bilgi edinme hakkina sahiptir - <a href='http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=1.5.4982&sourceXmlSearch=&MevzuatIliski=0' target="_blank">Bilgi Edinme Kanunu, Madde 4</a></p>
+            <hr />
+			<section class="section active">
+			    <div class="content">
+			      <ul class="side-nav">
+			      </ul>
+			    </div>
+			</section>        
+        </div>
+        <div class="large-10 columns">
+			<div class='row bilgi-formu'>
+				<br />
+				<h5 class='bilgi-formu-baslik'>Istanbul Emniyet Mudurlugu</h5>
+		        <iframe class='bilgi-formu-iframe' src="https://www.iem.gov.tr/iem/index.php?menu_id=36&tur=gercek#form#ihbar_sikayet"></iframe>
+			</div>
+	
+        </div>
+     </div>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
