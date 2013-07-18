@@ -1,9 +1,16 @@
-Devlet kurumlarindan bilgi istek islemlerini hizlandirmayi ve kolaylastirmayi hedefliyoruz. 
+Devlet kurumlarından bilgi istek işlemlerini hızlandırmayı ve kolaylaştırmayı hedefliyoruz.
 
-[Bilgi Edinme Kanunu](http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=1.5.4982&sourceXmlSearch=&MevzuatIliski=0)'na gore, her TC vatandasi bilgi edinme hakkina sahiptir. Devlet kurumlarinin web sitelerindeki Bilgi Edin sayfalarinda bu islem yapilabiliyor. Bu kaynaklara tek bir arayuzden ulasmak, bilgi istek surecini hizlandirmak ve insanlara ne gibi bilgileri talep edebilecekleri konusunda yol gostermek istiyoruz. 
+[Bilgi Edinme Kanunu](http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=1.5.4982&sourceXmlSearch=&MevzuatIliski=0)'na göre, her TC vatandaşı bilgi edinme hakkına sahiptir. Çeşitli devlet kurumlarının web sitelerinde "Bilgi Edin" sayfalarındaki formlar kullanılarak bu işlem yapılabiliyor. Ancak ne bilgi edinme hakkını kullanmak için birleşik bir arayüz mevcut, ne de yapılan işlemler şeffaf.
 
-### Yapilacaklar
-- Bilgi edinme kaynaklarinin listesinin tamamlanmasi ([bilgi_edinme_kaynaklari.json](https://github.com/direnkod/bilgi-edin/blob/master/bilgi_edinme_kaynaklari.json))
-- Talep edilebilecek bilgilerin dusunulmesi ve json dosyasina "description" icine eklenilmesi
-- Kisa vade: Kaynaklari bir arada toplayip baglanti veren yalin bir kullanici arayuzu gelistirilmesi ([index.html](https://github.com/direnkod/bilgi-edin/blob/master/index.html))
+Bu projede bilgi edinme hakkına kolektif zekayı katarak bilgi istek sürecini hızlandırmak ve insanlara ne gibi bilgileri talep edebilecekleri konusunda yol göstermek istiyoruz.
+
+### Yapılacaklar
+- Bilgi Edinme Formu tasarımı (içereceği bilgiler, kuruma göre şablonlar, ve gönderilecek makamların listesi)
+- Bilgi Edinme kaynaklarının derlenmesi ([bilgi_edinme_kaynaklari.json](https://github.com/direnkod/bilgi-edin/blob/master/bilgi_edinme_kaynaklari.json))
+- Talep edilebilecek bilgilerin/kategorilerinin düşünülmesi ve json dosyasında "description" içine eklenilmesi
+- Kısa vade: Kaynakları bir araya getirerek baglantı veren yalın bir arayüz geliştirilmesi ([index.html](https://github.com/direnkod/bilgi-edin/blob/master/index.html))
 - Orta-uzun vade: Kaynaklarin sitelerindeki formlarin programatik olarak submit edilebilmesi
+- Orta-uzun vade: Çok sorulan bilgilerin öne çıkarılması (uservoice getstaisfaction vb sitelerdeki gibi),
+- Orta-uzun vade: Sorulan bilgiler arasında arama
+- Orta-uzun vade: Tek tıkla Bilgi Edinme talebi gönderme (listede talep altı bir düğme)
+- Uzun vade: Taleplere devletin verdiği cevapların (bilgi veya red) takibi ve istatistikleri
