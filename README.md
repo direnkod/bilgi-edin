@@ -4,13 +4,30 @@ Bu proje ile devlet kurumlarından bilgi istek işlemlerini hızlandırmayı, ko
 
 Bu projede bilgi edinme hakkına kolektif zekayı katarak bilgi istek sürecini hızlandırmak, isteklerin takipçisi olmak, ve insanlara ne gibi bilgileri talep edebilecekleri konusunda yol göstermek istiyoruz.
 
-### Yapılacaklar
-- Bilgi Edinme Formu tasarımı (içereceği bilgiler, kuruma göre şablonlar, ve gönderilecek makamların listesi)
-- Bilgi Edinme kaynaklarının derlenmesi ([bilgi_edinme_kaynaklari.json](https://github.com/direnkod/bilgi-edin/blob/master/bilgi_edinme_kaynaklari.json))
-- Talep edilebilecek bilgilerin/kategorilerinin düşünülmesi ve json dosyasında "description" içine eklenilmesi
-- Kısa vade: Kaynakları bir araya getirerek baglantı veren yalın bir arayüz geliştirilmesi ([index.html](https://github.com/direnkod/bilgi-edin/blob/master/index.html))
-- Orta-uzun vade: Kaynaklarin sitelerindeki formlarin programatik olarak submit edilebilmesi
-- Orta-uzun vade: Çok sorulan bilgilerin öne çıkarılması (uservoice getstaisfaction vb sitelerdeki gibi),
-- Orta-uzun vade: Sorulan bilgiler arasında arama
-- Orta-uzun vade: Tek tıkla Bilgi Edinme talebi gönderme (listede talep altı bir düğme)
-- Uzun vade: Taleplere devletin verdiği cevapların (bilgi veya red) takibi ve istatistikleri
+### Hazırlık aşamasında yapılacaklar
+
+- Farklı kurumlara göre adapte olabilien yalın bir Bilgi Edinme Formu tasarımı (içereceği bilgiler, kuruma göre şablonlar, ve gönderilecek makamların listesi)
+ 
+- Bilgi Edinme Kanunu'nun kullanabileceği kurumların ve form adreslerinin derlenmesi ([bilgi_edinme_kaynaklari.json](https://github.com/direnkod/bilgi-edin/blob/master/bilgi_edinme_kaynaklari.json))
+
+- Bilgi Edinme Kanunu'nun kullanabileceği kurumların listelendiği ve linklendiği yalın bir sayfa üretimi ([index.html](https://github.com/direnkod/bilgi-edin/blob/master/index.html))
+
+- Derlenen kurumlar listesinden yola çıkara talep edilebilecek bilgilerin kategorilendirilmesi.
+
+### İlk aşamada yapılacaklar
+
+- Bilgi Edin Formu'nun seçilen kuruma göre programatik olarak submit edilebilmesi. Öncelikle sadece 3-5 kritik kurumda çalışır hale gelmesi yeterli.
+
+- Soruların listelenmesi 
+
+- Çok sorulan bilgilerin öne çıkarılması (uservoice getstaisfaction vb sitelerdeki gibi)
+
+- Sorulan bilgiler arasında arama
+
+- "Ben de bu bilgiyi talep ediyorum" tek tıkla Bilgi Edinme talebi gönderme listeden seçerek
+
+### İkinci aşamada yapılacaklar
+
+- Bilgi Edin Formu'nun çalışabildiği kurumların sayısını arttıran adaptörler geliştirme.
+
+- Taleplere devletin verdiği cevapların (bilgi veya red) takibi ve istatistiklerini derleme ve gösterme
