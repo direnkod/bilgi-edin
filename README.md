@@ -18,9 +18,7 @@ Bu projede bilgi edinme hakkına kolektif zekayı katarak bilgi istek sürecini 
 
 - Bilgi Edin Formu'nun seçilen kuruma göre programatik olarak submit edilebilmesi. Öncelikle sadece 3-5 kritik kurumda çalışır hale gelmesi yeterli.
 
-- Soruların listelenmesi 
-
-- Çok sorulan bilgilerin öne çıkarılması (uservoice getstaisfaction vb sitelerdeki gibi)
+- Soruların listelenmesi ve sık sorulan bilgilerin öne çıkarılması (uservoice getstaisfaction vb sitelerdeki gibi)
 
 - Sorulan bilgiler arasında arama
 
