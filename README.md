@@ -1,4 +1,4 @@
-Devlet kurumlarından bilgi istek işlemlerini hızlandırmayı, kolaylaştırmayı, ve kolektif olarak takip edilebilir hale getirerek devlet kurumlarını daha hesap verebilir hale getirmeyi hedefliyoruz.
+Bu proje ile devlet kurumlarından bilgi istek işlemlerini hızlandırmayı, kolaylaştırmayı, ve kolektif olarak takip edilebilir hale getirerek devlet kurumlarını daha hesap verebilir hale getirmeyi hedefliyoruz.
 
 [Bilgi Edinme Kanunu](http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=1.5.4982&sourceXmlSearch=&MevzuatIliski=0)'na göre, her TC vatandaşı bilgi edinme hakkına sahiptir. Çeşitli devlet kurumlarının web sitelerinde "Bilgi Edin" sayfalarındaki formlar kullanılarak bu işlem yapılabiliyor. Ancak ne bilgi edinme hakkını kullanmak için birleşik bir arayüz mevcut, ne de yapılan işlemler şeffaf.
 
