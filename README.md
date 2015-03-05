@@ -1,8 +1,8 @@
 Bu proje ile devlet kurumlarından bilgi istek işlemlerini hızlandırmayı, kolaylaştırmayı, ve kolektif olarak takip edilebilir hale getirerek devlet kurumlarını daha hesap verebilir hale getirmeyi hedefliyoruz.
 
-[Bilgi Edinme Kanunu](http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=1.5.4982&sourceXmlSearch=&MevzuatIliski=0)'na göre, her TC vatandaşı bilgi edinme hakkına sahiptir. Çeşitli devlet kurumlarının web sitelerinde "Bilgi Edin" sayfalarındaki formlar kullanılarak bu işlem yapılabiliyor. Ancak ne bilgi edinme hakkını kullanmak için birleşik bir arayüz mevcut, ne de yapılan işlemler şeffaf.
+[Bilgi Edinme Kanunu](http://www.mevzuat.gov.tr/Metin.Aspx?MevzuatKod=1.5.4982&sourceXmlSearch=&MevzuatIliski=0)'na göre, her TC vatandaşı bilgi edinme hakkına sahiptir. Çeşitli devlet kurumlarının web sitelerinde "Bilgi Edin" sayfalarındaki formlar kullanılarak bu işlem yapılabiliyor. Ancak ne bilgi edinme hakkını kullanmak için ne birleşik bir arayüz mevcut, ne de yapılan işlemler şeffaf.
 
-Bu projede bilgi edinme hakkına kolektif zekayı katarak bilgi istek sürecini hızlandırmak ve insanlara ne gibi bilgileri talep edebilecekleri konusunda yol göstermek istiyoruz.
+Bu projede bilgi edinme hakkına kolektif zekayı katarak bilgi istek sürecini hızlandırmak, isteklerin takipçisi olmak, ve insanlara ne gibi bilgileri talep edebilecekleri konusunda yol göstermek istiyoruz.
 
 ### Yapılacaklar
 - Bilgi Edinme Formu tasarımı (içereceği bilgiler, kuruma göre şablonlar, ve gönderilecek makamların listesi)
