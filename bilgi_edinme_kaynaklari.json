@@ -1,21 +1,31 @@
 {
+	"meb": {
+		"id": "meb",
+		"name": "Milli Eğitim Bakanlığı",
+		"description": "",
+		"url": "http://bilgiedinme.meb.gov.tr/Internet/onbasvuru.aspx?kurum=meb",
+		"takip_url": "http://bilgiedinme.meb.gov.tr/Internet/Takip.aspx"
+	},
 	"iem": {
 		"id": "iem",
 		"name": "Istanbul Emniyet Mudurlugu",
 		"description": "",
-		"url": "https://www.iem.gov.tr/iem/index.php?menu_id=36&tur=gercek#form#ihbar_sikayet"
+		"url": "https://www.iem.gov.tr/iem/index.php?menu_id=36&tur=gercek#form#ihbar_sikayet",
+		"takip_url": ""
 	},
 	"tcdd": {
 		"id": "tcdd",
 		"name": "Devlet Demir Yollari",
 		"description": "",
-		"url": "http://bilgi.ubak.gov.tr:9080/ULASTR/indexTCDD.jsp"
+		"url": "http://bilgi.ubak.gov.tr:9080/ULASTR/indexTCDD.jsp",
+		"takip_url": ""
 	},
 	"bimer": {
 		"id": "bimer",
 		"name": "Basbakanlik Iletisim Merkezi",
 		"description": "",
-		"url": "https://www.turkiye.gov.tr/bimer-basvuru"
+		"url": "https://www.turkiye.gov.tr/bimer-basvuru",
+		"takip_url": ""
 	}, 
 	"dhmi": {
 		"id": "dhmi",
@@ -27,18 +37,21 @@
 		"id": "dpb",
 		"name": "Devlet Personel Baskanligi",
 		"description": "",
-		"url": "http://bilgiedinme.dpb.gov.tr/bilgiedinmeint/bilgiedinme_anasayfa.aspx"
+		"url": "http://bilgiedinme.dpb.gov.tr/bilgiedinmeint/bilgiedinme_anasayfa.aspx",
+		"takip_url": ""
 	},
 	"dmo": {
 		"id": "dmo",
 		"name": "Devlet Malzeme Ofisi",
 		"description": "",
-		"url": "http://www.dmo.gov.tr/tr/bilgiedinme/Sayfalar/BilgiEdinmeBasvurusu.aspx"
+		"url": "http://www.dmo.gov.tr/tr/bilgiedinme/Sayfalar/BilgiEdinmeBasvurusu.aspx",
+		"takip_url": ""
 	},
 	"tccb": {
 		"id": "tccb",
 		"name": "TC Cumhurbaskanligi",
 		"description": "",
-		"url": "http://www.tccb.gov.tr/sayfa/bilgi_edinme/basvuru"
+		"url": "http://www.tccb.gov.tr/sayfa/bilgi_edinme/basvuru",
+		"takip_url": ""
 	}
 }
