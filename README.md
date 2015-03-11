@@ -30,4 +30,4 @@ Bu projede bilgi edinme hakkına kolektif zekayı katarak bilgi istek sürecini 
 
 - Taleplere devletin verdiği cevapların (bilgi veya red) takibi ve istatistiklerini derleme ve gösterme
 
-- TBMM'de vekillerin verdiği "Soru Önergeleri"ni de takibe alma.
+- TBMM'de milletvekillerin verdiği "Soru Önergeleri"ni de takibe alma.
