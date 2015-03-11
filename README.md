@@ -29,3 +29,5 @@ Bu projede bilgi edinme hakkına kolektif zekayı katarak bilgi istek sürecini 
 - Bilgi Edin Formu'nun çalışabildiği kurumların sayısını arttıran adaptörler geliştirme.
 
 - Taleplere devletin verdiği cevapların (bilgi veya red) takibi ve istatistiklerini derleme ve gösterme
+
+- TBMM'de vekillerin verdiği "Soru Önergeleri"ni de takibe alma.
